@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+
+<body>
+
+    <script src="/public/js/main.js"></script>
+    <div class="containAll">
+        <form name="formCalc">
+            <h1>CALCULATRICE JAVASCRIPT</h1>
+            <div class="result">
+                <input id="result" type="text" name="reponse">
+            </div>
+            <div class="blocOpNum">
+
+                <div class="operation">
+                    <input class="btnStyle2" type="button" value="+" onclick="formCalc.result.value += '+' ">
+                    <input class="btnStyle2" type="button" value="/" onclick="formCalc.result.value += '/' ">
+                    <input class="btnStyle2" type="button" value="-" onclick="formCalc.result.value += '-' ">
+                    <input class="btnStyle2" type="button" value="*" onclick="formCalc.result.value += '*' ">
+                    <input class ="btnStyle2" type="button" value="Clear" onclick = "formCalc.result.value = ' ' " id= "clear" >  
+                </div>
+                <div class="numbers">
+                    <div class="row1">
+                        <input class="btnStyle" type="button" value="1" onclick="formCalc.result.value += '1' ">
+                        <input class="btnStyle" type="button" value="2" onclick="formCalc.result.value += '2' ">
+                        <input class="btnStyle" type="button" value="3" onclick="formCalc.result.value += '3' ">
+                    </div>
+                    <div class="row2">
+                        <input class="btnStyle" type="button" value="4" onclick="formCalc.result.value += '4' ">
+                        <input class="btnStyle" type="button" value="5" onclick="formCalc.result.value += '5' ">
+                        <input class="btnStyle" type="button" value="6" onclick="formCalc.result.value += '6' ">
+                    </div>
+                    <div class="row3">
+                        <input class="btnStyle" type="button" value="7" onclick="formCalc.result.value += '7' ">
+                        <input class="btnStyle" type="button" value="8" onclick="formCalc.result.value += '8' ">
+                        <input class="btnStyle" type="button" value="9" onclick="formCalc.result.value += '9' ">
+                    </div>
+                    <div class="row4">
+                        <input class="btnStyle3" type="button" value="." onclick="formCalc.result.value += '.' ">
+                        <input class="btnStyle" type="button" value="0" onclick="formCalc.result.value += '0' ">
+                        <input class="btnStyle3" type="button" value="=" onclick="formCalc.result.value = eval(formCalc.result.value) ">
+                    </div>
+                </div>
+
+ 
+                
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

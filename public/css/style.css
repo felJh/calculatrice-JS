@@ -1,0 +1,96 @@
+body{
+    background: linear-gradient(to top right, rgb(17, 255, 164), 
+            #f4ffd4);            
+    height: 100vh;
+    width: 100vw;
+   
+}
+*{
+    margin: auto;
+}
+
+h1{
+    font: 1.4em "Trebuchet MS";
+    text-align: center;
+    padding: 0.5em;
+    background-color: #ffffff2d;
+    border-radius: 0.5em;
+    margin: 1rem;
+    color: #e0dfdf;
+    text-shadow: 0 0 2em black;
+}
+
+.containAll{
+    margin-top: 10vh;
+    align-items: center;
+    background: linear-gradient(to top right, rgba(255, 220, 220, 0.657), 
+    #8a6f8b); 
+    height: auto;
+    width: 40vw;
+    border-radius: 2%;
+    padding: 2rem;
+    box-shadow: 0 0 25rem rgb(0, 0, 0);
+}
+
+.blocOpNum{
+    margin: auto;
+    padding: 2rem;
+}
+
+.result{
+    margin: auto;
+    border-radius: 1em;
+    width: 80%;
+    background: linear-gradient(to top right, rgba(255, 125, 125, 0.657), 
+    #fff4c3);     
+    padding: 1rem;
+}
+.btnStyle:hover{
+    box-shadow: 0 0 2rem white;
+    background: rgba(255, 255, 255, 0.465);
+}
+.btnStyle2:hover{
+    box-shadow: 0 0 2rem white;
+    background: rgba(255, 255, 255, 0.465);
+}
+.btnStyle3:hover{
+    box-shadow: 0 0 2rem white;
+    background: rgba(255, 255, 255, 0.465);
+}
+
+
+.btnStyle{
+    height: 3rem;
+    width: 3rem;
+    background: linear-gradient(to top right, rgba(135, 201, 255, 0.445), 
+    #ff9a9a);
+    border-radius: 10%;
+}
+
+.btnStyle2{
+    height: 3rem;
+    width: 3rem;
+    background: linear-gradient(to top right, rgba(135, 201, 255, 0.445), 
+    #d3ff9a);
+    border-radius: 10%;
+
+}
+.btnStyle3{
+    height: 3rem;
+    width: 3rem;
+    background: linear-gradient(to top right, rgba(135, 201, 255, 0.445), 
+    #f79aff);
+    border-radius: 10%;
+
+}
+
+.numbers{
+
+    width: 38vw;
+    margin: 0.5rem;
+}
+
+.operations{
+    width: 38vw;
+    margin: 0.5rem;
+}
